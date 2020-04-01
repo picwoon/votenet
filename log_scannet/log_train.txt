@@ -1,0 +1,1693 @@
+Namespace(DUMP_DIR='/home/wenjing/votenet/log_scannet', ap_iou_thresh=0.25, batch_size=8, bn_decay_rate=0.5, bn_decay_step=20, checkpoint_path=None, cluster_sampling='vote_fps', dataset='scannet', dump_dir=None, dump_results=False, learning_rate=0.001, log_dir='log_scannet', lr_decay_rates='0.1,0.1,0.1', lr_decay_steps='80,120,160', max_epoch=180, model='votenet', no_height=False, num_point=40000, num_target=256, overwrite=False, use_color=False, use_sunrgbd_v2=False, vote_factor=1, weight_decay=0)
+Namespace(DUMP_DIR='/home/wenjing/votenet/log_scannet', ap_iou_thresh=0.25, batch_size=8, bn_decay_rate=0.5, bn_decay_step=20, checkpoint_path=None, cluster_sampling='vote_fps', dataset='scannet', dump_dir=None, dump_results=False, learning_rate=0.001, log_dir='log_scannet', lr_decay_rates='0.1,0.1,0.1', lr_decay_steps='80,120,160', max_epoch=180, model='votenet', no_height=False, num_point=40000, num_target=256, overwrite=False, use_color=False, use_sunrgbd_v2=False, vote_factor=1, weight_decay=0)
+**** EPOCH 000 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2020-03-16 18:20:51.841414
+eval mean box_loss: 0.662092
+eval mean center_loss: 0.151283
+eval mean heading_cls_loss: 0.000000
+eval mean heading_reg_loss: 0.000916
+eval mean loss: 21.058071
+eval mean neg_ratio: 0.689453
+eval mean obj_acc: 0.537587
+eval mean objectness_loss: 0.169377
+eval mean pos_ratio: 0.055339
+eval mean sem_cls_loss: 2.931250
+eval mean size_cls_loss: 2.870061
+eval mean size_reg_loss: 0.222888
+eval mean vote_loss: 1.065902
+eval cabinet Average Precision: 0.000660
+eval bed Average Precision: 0.000000
+eval chair Average Precision: 0.008477
+eval sofa Average Precision: 0.000000
+eval table Average Precision: 0.000111
+eval door Average Precision: 0.000000
+eval window Average Precision: 0.000000
+eval bookshelf Average Precision: nan
+eval picture Average Precision: 0.000000
+eval counter Average Precision: 0.000000
+eval desk Average Precision: 0.000000
+eval curtain Average Precision: 0.000000
+eval refrigerator Average Precision: 0.000211
+eval showercurtrain Average Precision: nan
+eval toilet Average Precision: 0.000000
+eval sink Average Precision: 0.000000
+eval bathtub Average Precision: nan
+eval garbagebin Average Precision: 0.000749
+eval mAP: nan
+eval cabinet Recall: 0.136364
+eval bed Recall: 0.000000
+eval chair Recall: 0.352941
+eval sofa Recall: 0.000000
+eval table Recall: 0.100000
+eval door Recall: 0.000000
+eval window Recall: 0.000000
+eval bookshelf Recall: nan
+eval picture Recall: 0.000000
+eval counter Recall: 0.000000
+eval desk Recall: 0.000000
+eval curtain Recall: 0.000000
+eval refrigerator Recall: 0.250000
+eval showercurtrain Recall: nan
+eval toilet Recall: 0.000000
+eval sink Recall: 0.000000
+eval bathtub Recall: nan
+eval garbagebin Recall: 0.210526
+eval AR: nan
+**** EPOCH 001 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2020-03-16 18:20:55.059282
+**** EPOCH 002 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2020-03-16 18:20:56.390065
+**** EPOCH 003 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2020-03-16 18:20:57.704665
+**** EPOCH 004 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2020-03-16 18:20:59.023156
+**** EPOCH 005 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2020-03-16 18:21:00.321458
+**** EPOCH 006 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2020-03-16 18:21:01.620147
+**** EPOCH 007 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2020-03-16 18:21:02.922463
+**** EPOCH 008 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2020-03-16 18:21:04.233575
+**** EPOCH 009 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2020-03-16 18:21:05.544664
+eval mean box_loss: 0.553431
+eval mean center_loss: 0.146740
+eval mean heading_cls_loss: 0.000000
+eval mean heading_reg_loss: 0.002208
+eval mean loss: 18.334660
+eval mean neg_ratio: 0.636068
+eval mean obj_acc: 0.892237
+eval mean objectness_loss: 0.142177
+eval mean pos_ratio: 0.076823
+eval mean sem_cls_loss: 2.373523
+eval mean size_cls_loss: 2.424744
+eval mean size_reg_loss: 0.162008
+eval mean vote_loss: 0.971595
+eval cabinet Average Precision: 0.017480
+eval bed Average Precision: 0.000000
+eval chair Average Precision: 0.102365
+eval sofa Average Precision: 0.007407
+eval table Average Precision: 0.014998
+eval door Average Precision: 0.000000
+eval window Average Precision: 0.000140
+eval bookshelf Average Precision: nan
+eval picture Average Precision: 0.000000
+eval counter Average Precision: 0.000000
+eval desk Average Precision: 0.000000
+eval curtain Average Precision: 0.000000
+eval refrigerator Average Precision: 0.000000
+eval showercurtrain Average Precision: nan
+eval toilet Average Precision: 0.002099
+eval sink Average Precision: 0.017399
+eval bathtub Average Precision: nan
+eval garbagebin Average Precision: 0.021052
+eval mAP: nan
+eval cabinet Recall: 0.590909
+eval bed Recall: 0.000000
+eval chair Recall: 0.823529
+eval sofa Recall: 0.333333
+eval table Recall: 0.500000
+eval door Recall: 0.000000
+eval window Recall: 0.142857
+eval bookshelf Recall: nan
+eval picture Recall: 0.000000
+eval counter Recall: 0.000000
+eval desk Recall: 0.000000
+eval curtain Recall: 0.000000
+eval refrigerator Recall: 0.000000
+eval showercurtrain Recall: nan
+eval toilet Recall: 1.000000
+eval sink Recall: 0.666667
+eval bathtub Recall: nan
+eval garbagebin Recall: 0.368421
+eval AR: nan
+**** EPOCH 010 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2020-03-16 18:21:08.549413
+**** EPOCH 011 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2020-03-16 18:21:09.883851
+**** EPOCH 012 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2020-03-16 18:21:11.199970
+**** EPOCH 013 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2020-03-16 18:21:12.505642
+**** EPOCH 014 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2020-03-16 18:21:13.798387
+**** EPOCH 015 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2020-03-16 18:21:15.096456
+**** EPOCH 016 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2020-03-16 18:21:16.391752
+**** EPOCH 017 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2020-03-16 18:21:17.682520
+**** EPOCH 018 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2020-03-16 18:21:18.975741
+**** EPOCH 019 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2020-03-16 18:21:20.271837
+eval mean box_loss: 0.494542
+eval mean center_loss: 0.122983
+eval mean heading_cls_loss: 0.000000
+eval mean heading_reg_loss: 0.000692
+eval mean loss: 16.717236
+eval mean neg_ratio: 0.620443
+eval mean obj_acc: 0.870046
+eval mean objectness_loss: 0.134289
+eval mean pos_ratio: 0.085938
+eval mean sem_cls_loss: 1.971389
+eval mean size_cls_loss: 1.997718
+eval mean size_reg_loss: 0.171096
+eval mean vote_loss: 0.912898
+eval cabinet Average Precision: 0.106164
+eval bed Average Precision: 0.000000
+eval chair Average Precision: 0.253001
+eval sofa Average Precision: 0.015152
+eval table Average Precision: 0.029305
+eval door Average Precision: 0.013354
+eval window Average Precision: 0.022857
+eval bookshelf Average Precision: nan
+eval picture Average Precision: 0.000000
+eval counter Average Precision: 0.000000
+eval desk Average Precision: 0.013605
+eval curtain Average Precision: 0.000000
+eval refrigerator Average Precision: 0.043216
+eval showercurtrain Average Precision: nan
+eval toilet Average Precision: 0.004742
+eval sink Average Precision: 0.005109
+eval bathtub Average Precision: nan
+eval garbagebin Average Precision: 0.061807
+eval mAP: nan
+eval cabinet Recall: 0.681818
+eval bed Recall: 0.000000
+eval chair Recall: 0.705882
+eval sofa Recall: 0.333333
+eval table Recall: 0.400000
+eval door Recall: 0.312500
+eval window Recall: 0.285714
+eval bookshelf Recall: nan
+eval picture Recall: 0.000000
+eval counter Recall: 0.000000
+eval desk Recall: 1.000000
+eval curtain Recall: 0.000000
+eval refrigerator Recall: 1.000000
+eval showercurtrain Recall: nan
+eval toilet Recall: 1.000000
+eval sink Recall: 0.666667
+eval bathtub Recall: nan
+eval garbagebin Recall: 0.368421
+eval AR: nan
+**** EPOCH 020 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.500000
+2020-03-16 18:21:23.079756
+**** EPOCH 021 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.250000
+2020-03-16 18:21:24.401012
+**** EPOCH 022 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.250000
+2020-03-16 18:21:25.696752
+**** EPOCH 023 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.250000
+2020-03-16 18:21:26.998936
+**** EPOCH 024 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.250000
+2020-03-16 18:21:28.297169
+**** EPOCH 025 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.250000
+2020-03-16 18:21:29.598775
+**** EPOCH 026 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.250000
+2020-03-16 18:21:30.922436
+**** EPOCH 027 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.250000
+2020-03-16 18:21:32.244180
+**** EPOCH 028 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.250000
+2020-03-16 18:21:33.554944
+**** EPOCH 029 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.250000
+2020-03-16 18:21:34.863324
+eval mean box_loss: 0.434275
+eval mean center_loss: 0.133602
+eval mean heading_cls_loss: 0.000000
+eval mean heading_reg_loss: 0.000817
+eval mean loss: 15.810775
+eval mean neg_ratio: 0.591797
+eval mean obj_acc: 0.832554
+eval mean objectness_loss: 0.148993
+eval mean pos_ratio: 0.104167
+eval mean sem_cls_loss: 1.720186
+eval mean size_cls_loss: 1.713850
+eval mean size_reg_loss: 0.128471
+eval mean vote_loss: 0.900288
+eval cabinet Average Precision: 0.062815
+eval bed Average Precision: 0.000000
+eval chair Average Precision: 0.523673
+eval sofa Average Precision: 0.333333
+eval table Average Precision: 0.113340
+eval door Average Precision: 0.022431
+eval window Average Precision: 0.005763
+eval bookshelf Average Precision: nan
+eval picture Average Precision: 0.000000
+eval counter Average Precision: 0.000000
+eval desk Average Precision: 0.005700
+eval curtain Average Precision: 0.000000
+eval refrigerator Average Precision: 0.009149
+eval showercurtrain Average Precision: nan
+eval toilet Average Precision: 0.003247
+eval sink Average Precision: 0.003284
+eval bathtub Average Precision: nan
+eval garbagebin Average Precision: 0.062701
+eval mAP: nan
+eval cabinet Recall: 0.590909
+eval bed Recall: 0.000000
+eval chair Recall: 0.882353
+eval sofa Recall: 0.333333
+eval table Recall: 0.700000
+eval door Recall: 0.312500
+eval window Recall: 0.428571
+eval bookshelf Recall: nan
+eval picture Recall: 0.000000
+eval counter Recall: 0.000000
+eval desk Recall: 1.000000
+eval curtain Recall: 0.000000
+eval refrigerator Recall: 0.750000
+eval showercurtrain Recall: nan
+eval toilet Recall: 0.500000
+eval sink Recall: 0.666667
+eval bathtub Recall: nan
+eval garbagebin Recall: 0.421053
+eval AR: nan
+**** EPOCH 030 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.250000
+2020-03-16 18:21:37.601917
+**** EPOCH 031 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.250000
+2020-03-16 18:21:38.947188
+**** EPOCH 032 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.250000
+2020-03-16 18:21:40.246562
+**** EPOCH 033 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.250000
+2020-03-16 18:21:41.551919
+**** EPOCH 034 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.250000
+2020-03-16 18:21:42.858368
+**** EPOCH 035 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.250000
+2020-03-16 18:21:44.167315
+**** EPOCH 036 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.250000
+2020-03-16 18:21:45.471135
+**** EPOCH 037 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.250000
+2020-03-16 18:21:46.770644
+**** EPOCH 038 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.250000
+2020-03-16 18:21:48.077822
+**** EPOCH 039 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.250000
+2020-03-16 18:21:49.383800
+eval mean box_loss: 0.368236
+eval mean center_loss: 0.115344
+eval mean heading_cls_loss: 0.000000
+eval mean heading_reg_loss: 0.000489
+eval mean loss: 14.541306
+eval mean neg_ratio: 0.589844
+eval mean obj_acc: 0.847744
+eval mean objectness_loss: 0.136392
+eval mean pos_ratio: 0.102865
+eval mean sem_cls_loss: 1.516123
+eval mean size_cls_loss: 1.509825
+eval mean size_reg_loss: 0.101421
+eval mean vote_loss: 0.866086
+eval cabinet Average Precision: 0.173668
+eval bed Average Precision: 0.023810
+eval chair Average Precision: 0.615482
+eval sofa Average Precision: 0.012821
+eval table Average Precision: 0.279046
+eval door Average Precision: 0.102240
+eval window Average Precision: 0.143767
+eval bookshelf Average Precision: nan
+eval picture Average Precision: 0.000000
+eval counter Average Precision: 0.000000
+eval desk Average Precision: 0.014480
+eval curtain Average Precision: 0.007576
+eval refrigerator Average Precision: 0.014851
+eval showercurtrain Average Precision: nan
+eval toilet Average Precision: 0.008169
+eval sink Average Precision: 0.007207
+eval bathtub Average Precision: nan
+eval garbagebin Average Precision: 0.082371
+eval mAP: nan
+eval cabinet Recall: 0.545455
+eval bed Recall: 0.500000
+eval chair Recall: 0.941176
+eval sofa Recall: 0.333333
+eval table Recall: 0.700000
+eval door Recall: 0.375000
+eval window Recall: 0.285714
+eval bookshelf Recall: nan
+eval picture Recall: 0.000000
+eval counter Recall: 0.000000
+eval desk Recall: 1.000000
+eval curtain Recall: 0.250000
+eval refrigerator Recall: 0.750000
+eval showercurtrain Recall: nan
+eval toilet Recall: 1.000000
+eval sink Recall: 0.666667
+eval bathtub Recall: nan
+eval garbagebin Recall: 0.473684
+eval AR: nan
+**** EPOCH 040 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.250000
+2020-03-16 18:21:52.155635
+**** EPOCH 041 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.125000
+2020-03-16 18:21:53.513215
+**** EPOCH 042 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.125000
+2020-03-16 18:21:54.816533
+**** EPOCH 043 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.125000
+2020-03-16 18:21:56.120492
+**** EPOCH 044 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.125000
+2020-03-16 18:21:57.428619
+**** EPOCH 045 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.125000
+2020-03-16 18:21:58.742183
+**** EPOCH 046 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.125000
+2020-03-16 18:22:00.062460
+**** EPOCH 047 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.125000
+2020-03-16 18:22:01.375407
+**** EPOCH 048 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.125000
+2020-03-16 18:22:02.677793
+**** EPOCH 049 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.125000
+2020-03-16 18:22:03.990710
+eval mean box_loss: 0.346112
+eval mean center_loss: 0.103936
+eval mean heading_cls_loss: 0.000000
+eval mean heading_reg_loss: 0.000519
+eval mean loss: 14.023849
+eval mean neg_ratio: 0.578125
+eval mean obj_acc: 0.845506
+eval mean objectness_loss: 0.137655
+eval mean pos_ratio: 0.117188
+eval mean sem_cls_loss: 1.352553
+eval mean size_cls_loss: 1.343862
+eval mean size_reg_loss: 0.107270
+eval mean vote_loss: 0.852190
+eval cabinet Average Precision: 0.185788
+eval bed Average Precision: 0.051316
+eval chair Average Precision: 0.791114
+eval sofa Average Precision: 0.060218
+eval table Average Precision: 0.274431
+eval door Average Precision: 0.070367
+eval window Average Precision: 0.004811
+eval bookshelf Average Precision: nan
+eval picture Average Precision: 0.000000
+eval counter Average Precision: 0.000000
+eval desk Average Precision: 0.037366
+eval curtain Average Precision: 0.000000
+eval refrigerator Average Precision: 0.062500
+eval showercurtrain Average Precision: nan
+eval toilet Average Precision: 0.016003
+eval sink Average Precision: 0.009711
+eval bathtub Average Precision: nan
+eval garbagebin Average Precision: 0.038788
+eval mAP: nan
+eval cabinet Recall: 0.590909
+eval bed Recall: 1.000000
+eval chair Recall: 1.000000
+eval sofa Recall: 0.666667
+eval table Recall: 0.700000
+eval door Recall: 0.625000
+eval window Recall: 0.428571
+eval bookshelf Recall: nan
+eval picture Recall: 0.000000
+eval counter Recall: 0.000000
+eval desk Recall: 1.000000
+eval curtain Recall: 0.000000
+eval refrigerator Recall: 0.500000
+eval showercurtrain Recall: nan
+eval toilet Recall: 1.000000
+eval sink Recall: 0.666667
+eval bathtub Recall: nan
+eval garbagebin Recall: 0.421053
+eval AR: nan
+**** EPOCH 050 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.125000
+2020-03-16 18:22:06.822987
+**** EPOCH 051 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.125000
+2020-03-16 18:22:08.163290
+**** EPOCH 052 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.125000
+2020-03-16 18:22:09.474721
+**** EPOCH 053 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.125000
+2020-03-16 18:22:10.787436
+**** EPOCH 054 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.125000
+2020-03-16 18:22:12.110350
+**** EPOCH 055 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.125000
+2020-03-16 18:22:13.415916
+**** EPOCH 056 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.125000
+2020-03-16 18:22:14.725418
+**** EPOCH 057 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.125000
+2020-03-16 18:22:16.036721
+**** EPOCH 058 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.125000
+2020-03-16 18:22:17.359576
+**** EPOCH 059 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.125000
+2020-03-16 18:22:18.664863
+eval mean box_loss: 0.291627
+eval mean center_loss: 0.101998
+eval mean heading_cls_loss: 0.000000
+eval mean heading_reg_loss: 0.000362
+eval mean loss: 13.053276
+eval mean neg_ratio: 0.574219
+eval mean obj_acc: 0.828008
+eval mean objectness_loss: 0.132230
+eval mean pos_ratio: 0.118490
+eval mean sem_cls_loss: 1.124548
+eval mean size_cls_loss: 1.124274
+eval mean size_reg_loss: 0.076840
+eval mean vote_loss: 0.835130
+eval cabinet Average Precision: 0.139574
+eval bed Average Precision: 0.312500
+eval chair Average Precision: 0.698054
+eval sofa Average Precision: 0.053735
+eval table Average Precision: 0.266588
+eval door Average Precision: 0.142647
+eval window Average Precision: 0.009604
+eval bookshelf Average Precision: nan
+eval picture Average Precision: 0.000000
+eval counter Average Precision: 0.000000
+eval desk Average Precision: 0.169956
+eval curtain Average Precision: 0.012686
+eval refrigerator Average Precision: 0.005435
+eval showercurtrain Average Precision: nan
+eval toilet Average Precision: 0.004167
+eval sink Average Precision: 0.172660
+eval bathtub Average Precision: nan
+eval garbagebin Average Precision: 0.109042
+eval mAP: nan
+eval cabinet Recall: 0.681818
+eval bed Recall: 1.000000
+eval chair Recall: 0.941176
+eval sofa Recall: 0.666667
+eval table Recall: 0.700000
+eval door Recall: 0.625000
+eval window Recall: 0.285714
+eval bookshelf Recall: nan
+eval picture Recall: 0.000000
+eval counter Recall: 0.000000
+eval desk Recall: 1.000000
+eval curtain Recall: 0.750000
+eval refrigerator Recall: 0.250000
+eval showercurtrain Recall: nan
+eval toilet Recall: 0.500000
+eval sink Recall: 1.000000
+eval bathtub Recall: nan
+eval garbagebin Recall: 0.421053
+eval AR: nan
+**** EPOCH 060 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.125000
+2020-03-16 18:22:21.451421
+**** EPOCH 061 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.062500
+2020-03-16 18:22:22.809023
+**** EPOCH 062 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.062500
+2020-03-16 18:22:24.117127
+**** EPOCH 063 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.062500
+2020-03-16 18:22:25.428072
+**** EPOCH 064 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.062500
+2020-03-16 18:22:26.739079
+**** EPOCH 065 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.062500
+2020-03-16 18:22:28.066187
+**** EPOCH 066 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.062500
+2020-03-16 18:22:29.370561
+**** EPOCH 067 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.062500
+2020-03-16 18:22:30.679513
+**** EPOCH 068 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.062500
+2020-03-16 18:22:31.986729
+**** EPOCH 069 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.062500
+2020-03-16 18:22:33.300241
+eval mean box_loss: 0.310566
+eval mean center_loss: 0.107344
+eval mean heading_cls_loss: 0.000000
+eval mean heading_reg_loss: 0.000715
+eval mean loss: 13.133802
+eval mean neg_ratio: 0.567708
+eval mean obj_acc: 0.801905
+eval mean objectness_loss: 0.135466
+eval mean pos_ratio: 0.115885
+eval mean sem_cls_loss: 1.018144
+eval mean size_cls_loss: 1.018039
+eval mean size_reg_loss: 0.100703
+eval mean vote_loss: 0.833266
+eval cabinet Average Precision: 0.277669
+eval bed Average Precision: 0.400000
+eval chair Average Precision: 0.751833
+eval sofa Average Precision: 0.341667
+eval table Average Precision: 0.288024
+eval door Average Precision: 0.093273
+eval window Average Precision: 0.025409
+eval bookshelf Average Precision: nan
+eval picture Average Precision: 0.000000
+eval counter Average Precision: 0.000000
+eval desk Average Precision: 0.002959
+eval curtain Average Precision: 0.028571
+eval refrigerator Average Precision: 0.056757
+eval showercurtrain Average Precision: nan
+eval toilet Average Precision: 0.023810
+eval sink Average Precision: 0.026144
+eval bathtub Average Precision: nan
+eval garbagebin Average Precision: 0.128628
+eval mAP: nan
+eval cabinet Recall: 0.681818
+eval bed Recall: 1.000000
+eval chair Recall: 0.882353
+eval sofa Recall: 0.666667
+eval table Recall: 0.800000
+eval door Recall: 0.500000
+eval window Recall: 0.571429
+eval bookshelf Recall: nan
+eval picture Recall: 0.000000
+eval counter Recall: 0.000000
+eval desk Recall: 0.500000
+eval curtain Recall: 0.500000
+eval refrigerator Recall: 0.500000
+eval showercurtrain Recall: nan
+eval toilet Recall: 0.500000
+eval sink Recall: 0.666667
+eval bathtub Recall: nan
+eval garbagebin Recall: 0.631579
+eval AR: nan
+**** EPOCH 070 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.062500
+2020-03-16 18:22:36.088130
+**** EPOCH 071 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.062500
+2020-03-16 18:22:37.431909
+**** EPOCH 072 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.062500
+2020-03-16 18:22:38.738648
+**** EPOCH 073 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.062500
+2020-03-16 18:22:40.076264
+**** EPOCH 074 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.062500
+2020-03-16 18:22:41.392239
+**** EPOCH 075 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.062500
+2020-03-16 18:22:42.704404
+**** EPOCH 076 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.062500
+2020-03-16 18:22:44.017331
+**** EPOCH 077 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.062500
+2020-03-16 18:22:45.322499
+**** EPOCH 078 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.062500
+2020-03-16 18:22:46.635130
+**** EPOCH 079 ****
+Current learning rate: 0.001000
+Current BN decay momentum: 0.062500
+2020-03-16 18:22:47.946031
+eval mean box_loss: 0.304923
+eval mean center_loss: 0.095658
+eval mean heading_cls_loss: 0.000000
+eval mean heading_reg_loss: 0.000550
+eval mean loss: 12.843045
+eval mean neg_ratio: 0.581380
+eval mean obj_acc: 0.808451
+eval mean objectness_loss: 0.140128
+eval mean pos_ratio: 0.111979
+eval mean sem_cls_loss: 0.976228
+eval mean size_cls_loss: 0.982308
+eval mean size_reg_loss: 0.110483
+eval mean vote_loss: 0.811695
+eval cabinet Average Precision: 0.365586
+eval bed Average Precision: 1.000000
+eval chair Average Precision: 0.711670
+eval sofa Average Precision: 0.125000
+eval table Average Precision: 0.456686
+eval door Average Precision: 0.193024
+eval window Average Precision: 0.017230
+eval bookshelf Average Precision: nan
+eval picture Average Precision: 0.000000
+eval counter Average Precision: 0.000000
+eval desk Average Precision: 0.110119
+eval curtain Average Precision: 0.031250
+eval refrigerator Average Precision: 0.032258
+eval showercurtrain Average Precision: nan
+eval toilet Average Precision: 0.000000
+eval sink Average Precision: 0.020513
+eval bathtub Average Precision: nan
+eval garbagebin Average Precision: 0.283691
+eval mAP: nan
+eval cabinet Recall: 0.727273
+eval bed Recall: 1.000000
+eval chair Recall: 0.882353
+eval sofa Recall: 0.666667
+eval table Recall: 0.800000
+eval door Recall: 0.687500
+eval window Recall: 0.428571
+eval bookshelf Recall: nan
+eval picture Recall: 0.000000
+eval counter Recall: 0.000000
+eval desk Recall: 1.000000
+eval curtain Recall: 0.250000
+eval refrigerator Recall: 0.500000
+eval showercurtrain Recall: nan
+eval toilet Recall: 0.000000
+eval sink Recall: 0.666667
+eval bathtub Recall: nan
+eval garbagebin Recall: 0.684211
+eval AR: nan
+**** EPOCH 080 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.062500
+2020-03-16 18:22:50.755827
+**** EPOCH 081 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.031250
+2020-03-16 18:22:52.102722
+**** EPOCH 082 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.031250
+2020-03-16 18:22:53.416893
+**** EPOCH 083 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.031250
+2020-03-16 18:22:54.721869
+**** EPOCH 084 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.031250
+2020-03-16 18:22:56.025988
+**** EPOCH 085 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.031250
+2020-03-16 18:22:57.339116
+**** EPOCH 086 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.031250
+2020-03-16 18:22:58.677937
+**** EPOCH 087 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.031250
+2020-03-16 18:22:59.990645
+**** EPOCH 088 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.031250
+2020-03-16 18:23:01.299091
+**** EPOCH 089 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.031250
+2020-03-16 18:23:02.610396
+eval mean box_loss: 0.248589
+eval mean center_loss: 0.086645
+eval mean heading_cls_loss: 0.000000
+eval mean heading_reg_loss: 0.000365
+eval mean loss: 11.653521
+eval mean neg_ratio: 0.564453
+eval mean obj_acc: 0.858902
+eval mean objectness_loss: 0.106910
+eval mean pos_ratio: 0.123047
+eval mean sem_cls_loss: 0.810093
+eval mean size_cls_loss: 0.819174
+eval mean size_reg_loss: 0.079662
+eval mean vote_loss: 0.782299
+eval cabinet Average Precision: 0.371934
+eval bed Average Precision: 0.666667
+eval chair Average Precision: 0.782714
+eval sofa Average Precision: 0.466667
+eval table Average Precision: 0.558974
+eval door Average Precision: 0.235342
+eval window Average Precision: 0.065476
+eval bookshelf Average Precision: nan
+eval picture Average Precision: 0.000000
+eval counter Average Precision: 0.000000
+eval desk Average Precision: 0.095455
+eval curtain Average Precision: 0.041667
+eval refrigerator Average Precision: 0.016686
+eval showercurtrain Average Precision: nan
+eval toilet Average Precision: 0.071429
+eval sink Average Precision: 0.413333
+eval bathtub Average Precision: nan
+eval garbagebin Average Precision: 0.274996
+eval mAP: nan
+eval cabinet Recall: 0.818182
+eval bed Recall: 1.000000
+eval chair Recall: 0.941176
+eval sofa Recall: 0.666667
+eval table Recall: 0.800000
+eval door Recall: 0.625000
+eval window Recall: 0.285714
+eval bookshelf Recall: nan
+eval picture Recall: 0.000000
+eval counter Recall: 0.000000
+eval desk Recall: 1.000000
+eval curtain Recall: 0.250000
+eval refrigerator Recall: 0.750000
+eval showercurtrain Recall: nan
+eval toilet Recall: 0.500000
+eval sink Recall: 1.000000
+eval bathtub Recall: nan
+eval garbagebin Recall: 0.526316
+eval AR: nan
+**** EPOCH 090 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.031250
+2020-03-16 18:23:05.367774
+**** EPOCH 091 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.031250
+2020-03-16 18:23:06.711900
+**** EPOCH 092 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.031250
+2020-03-16 18:23:08.023771
+**** EPOCH 093 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.031250
+2020-03-16 18:23:09.335576
+**** EPOCH 094 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.031250
+2020-03-16 18:23:10.650623
+**** EPOCH 095 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.031250
+2020-03-16 18:23:11.959221
+**** EPOCH 096 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.031250
+2020-03-16 18:23:13.272059
+**** EPOCH 097 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.031250
+2020-03-16 18:23:14.596647
+**** EPOCH 098 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.031250
+2020-03-16 18:23:15.909028
+**** EPOCH 099 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.031250
+2020-03-16 18:23:17.211140
+eval mean box_loss: 0.280131
+eval mean center_loss: 0.086580
+eval mean heading_cls_loss: 0.000000
+eval mean heading_reg_loss: 0.000406
+eval mean loss: 12.239712
+eval mean neg_ratio: 0.569010
+eval mean obj_acc: 0.826742
+eval mean objectness_loss: 0.118517
+eval mean pos_ratio: 0.122396
+eval mean sem_cls_loss: 0.885164
+eval mean size_cls_loss: 0.880764
+eval mean size_reg_loss: 0.105068
+eval mean vote_loss: 0.796066
+eval cabinet Average Precision: 0.286567
+eval bed Average Precision: 0.250000
+eval chair Average Precision: 0.693313
+eval sofa Average Precision: 0.177778
+eval table Average Precision: 0.401457
+eval door Average Precision: 0.192626
+eval window Average Precision: 0.014254
+eval bookshelf Average Precision: nan
+eval picture Average Precision: 0.000000
+eval counter Average Precision: 0.000000
+eval desk Average Precision: 0.034804
+eval curtain Average Precision: 0.022192
+eval refrigerator Average Precision: 0.008903
+eval showercurtrain Average Precision: nan
+eval toilet Average Precision: 0.000000
+eval sink Average Precision: 0.216374
+eval bathtub Average Precision: nan
+eval garbagebin Average Precision: 0.182117
+eval mAP: nan
+eval cabinet Recall: 0.772727
+eval bed Recall: 1.000000
+eval chair Recall: 0.823529
+eval sofa Recall: 0.666667
+eval table Recall: 0.800000
+eval door Recall: 0.625000
+eval window Recall: 0.428571
+eval bookshelf Recall: nan
+eval picture Recall: 0.000000
+eval counter Recall: 0.000000
+eval desk Recall: 1.000000
+eval curtain Recall: 0.500000
+eval refrigerator Recall: 0.500000
+eval showercurtrain Recall: nan
+eval toilet Recall: 0.000000
+eval sink Recall: 1.000000
+eval bathtub Recall: nan
+eval garbagebin Recall: 0.578947
+eval AR: nan
+**** EPOCH 100 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.031250
+2020-03-16 18:23:19.940064
+**** EPOCH 101 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.015625
+2020-03-16 18:23:21.286095
+**** EPOCH 102 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.015625
+2020-03-16 18:23:22.589265
+**** EPOCH 103 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.015625
+2020-03-16 18:23:23.891661
+**** EPOCH 104 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.015625
+2020-03-16 18:23:25.204880
+**** EPOCH 105 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.015625
+2020-03-16 18:23:26.542807
+**** EPOCH 106 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.015625
+2020-03-16 18:23:27.842718
+**** EPOCH 107 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.015625
+2020-03-16 18:23:29.153448
+**** EPOCH 108 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.015625
+2020-03-16 18:23:30.462246
+**** EPOCH 109 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.015625
+2020-03-16 18:23:31.773305
+eval mean box_loss: 0.277676
+eval mean center_loss: 0.090194
+eval mean heading_cls_loss: 0.000000
+eval mean heading_reg_loss: 0.000339
+eval mean loss: 12.310463
+eval mean neg_ratio: 0.570312
+eval mean obj_acc: 0.806903
+eval mean objectness_loss: 0.131092
+eval mean pos_ratio: 0.127604
+eval mean sem_cls_loss: 0.902126
+eval mean size_cls_loss: 0.914048
+eval mean size_reg_loss: 0.095738
+eval mean vote_loss: 0.797612
+eval cabinet Average Precision: 0.333349
+eval bed Average Precision: 0.500000
+eval chair Average Precision: 0.794479
+eval sofa Average Precision: 0.166667
+eval table Average Precision: 0.484512
+eval door Average Precision: 0.230420
+eval window Average Precision: 0.029206
+eval bookshelf Average Precision: nan
+eval picture Average Precision: 0.011364
+eval counter Average Precision: 0.000000
+eval desk Average Precision: 0.035714
+eval curtain Average Precision: 0.086310
+eval refrigerator Average Precision: 0.006346
+eval showercurtrain Average Precision: nan
+eval toilet Average Precision: 0.012885
+eval sink Average Precision: 0.020773
+eval bathtub Average Precision: nan
+eval garbagebin Average Precision: 0.187123
+eval mAP: nan
+eval cabinet Recall: 0.772727
+eval bed Recall: 1.000000
+eval chair Recall: 0.941176
+eval sofa Recall: 0.333333
+eval table Recall: 0.800000
+eval door Recall: 0.687500
+eval window Recall: 0.428571
+eval bookshelf Recall: nan
+eval picture Recall: 0.500000
+eval counter Recall: 0.000000
+eval desk Recall: 0.500000
+eval curtain Recall: 0.500000
+eval refrigerator Recall: 0.500000
+eval showercurtrain Recall: nan
+eval toilet Recall: 1.000000
+eval sink Recall: 0.666667
+eval bathtub Recall: nan
+eval garbagebin Recall: 0.473684
+eval AR: nan
+**** EPOCH 110 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.015625
+2020-03-16 18:23:34.458331
+**** EPOCH 111 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.015625
+2020-03-16 18:23:35.809940
+**** EPOCH 112 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.015625
+2020-03-16 18:23:37.120345
+**** EPOCH 113 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.015625
+2020-03-16 18:23:38.430756
+**** EPOCH 114 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.015625
+2020-03-16 18:23:39.744841
+**** EPOCH 115 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.015625
+2020-03-16 18:23:41.054443
+**** EPOCH 116 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.015625
+2020-03-16 18:23:42.371605
+**** EPOCH 117 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.015625
+2020-03-16 18:23:43.695966
+**** EPOCH 118 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.015625
+2020-03-16 18:23:45.033775
+**** EPOCH 119 ****
+Current learning rate: 0.000100
+Current BN decay momentum: 0.015625
+2020-03-16 18:23:46.366385
+eval mean box_loss: 0.253322
+eval mean center_loss: 0.087569
+eval mean heading_cls_loss: 0.000000
+eval mean heading_reg_loss: 0.000340
+eval mean loss: 11.645788
+eval mean neg_ratio: 0.559245
+eval mean obj_acc: 0.833966
+eval mean objectness_loss: 0.114797
+eval mean pos_ratio: 0.126953
+eval mean sem_cls_loss: 0.765429
+eval mean size_cls_loss: 0.770628
+eval mean size_reg_loss: 0.088350
+eval mean vote_loss: 0.777315
+eval cabinet Average Precision: 0.330865
+eval bed Average Precision: 0.833333
+eval chair Average Precision: 0.777386
+eval sofa Average Precision: 0.297386
+eval table Average Precision: 0.572323
+eval door Average Precision: 0.379592
+eval window Average Precision: 0.041585
+eval bookshelf Average Precision: nan
+eval picture Average Precision: 0.000000
+eval counter Average Precision: 0.000000
+eval desk Average Precision: 0.181818
+eval curtain Average Precision: 0.062500
+eval refrigerator Average Precision: 0.016187
+eval showercurtrain Average Precision: nan
+eval toilet Average Precision: 0.007042
+eval sink Average Precision: 0.184211
+eval bathtub Average Precision: nan
+eval garbagebin Average Precision: 0.209287
+eval mAP: nan
+eval cabinet Recall: 0.681818
+eval bed Recall: 1.000000
+eval chair Recall: 0.882353
+eval sofa Recall: 1.000000
+eval table Recall: 0.800000
+eval door Recall: 0.812500
+eval window Recall: 0.428571
+eval bookshelf Recall: nan
+eval picture Recall: 0.000000
+eval counter Recall: 0.000000
+eval desk Recall: 1.000000
+eval curtain Recall: 0.250000
+eval refrigerator Recall: 0.750000
+eval showercurtrain Recall: nan
+eval toilet Recall: 0.500000
+eval sink Recall: 0.666667
+eval bathtub Recall: nan
+eval garbagebin Recall: 0.631579
+eval AR: nan
+**** EPOCH 120 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.015625
+2020-03-16 18:23:49.136055
+**** EPOCH 121 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.007812
+2020-03-16 18:23:50.489863
+**** EPOCH 122 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.007812
+2020-03-16 18:23:51.814686
+**** EPOCH 123 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.007812
+2020-03-16 18:23:53.140207
+**** EPOCH 124 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.007812
+2020-03-16 18:23:54.462081
+**** EPOCH 125 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.007812
+2020-03-16 18:23:55.787236
+**** EPOCH 126 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.007812
+2020-03-16 18:23:57.108579
+**** EPOCH 127 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.007812
+2020-03-16 18:23:58.448655
+**** EPOCH 128 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.007812
+2020-03-16 18:23:59.769406
+**** EPOCH 129 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.007812
+2020-03-16 18:24:01.078545
+eval mean box_loss: 0.236247
+eval mean center_loss: 0.086133
+eval mean heading_cls_loss: 0.000000
+eval mean heading_reg_loss: 0.000351
+eval mean loss: 11.641943
+eval mean neg_ratio: 0.561849
+eval mean obj_acc: 0.815562
+eval mean objectness_loss: 0.119124
+eval mean pos_ratio: 0.115885
+eval mean sem_cls_loss: 0.814047
+eval mean size_cls_loss: 0.831333
+eval mean size_reg_loss: 0.066629
+eval mean vote_loss: 0.786980
+eval cabinet Average Precision: 0.289826
+eval bed Average Precision: 0.666667
+eval chair Average Precision: 0.741996
+eval sofa Average Precision: 0.333333
+eval table Average Precision: 0.405045
+eval door Average Precision: 0.277483
+eval window Average Precision: 0.015455
+eval bookshelf Average Precision: nan
+eval picture Average Precision: 0.021739
+eval counter Average Precision: 0.000000
+eval desk Average Precision: 0.043175
+eval curtain Average Precision: 0.019231
+eval refrigerator Average Precision: 0.253614
+eval showercurtrain Average Precision: nan
+eval toilet Average Precision: 0.022611
+eval sink Average Precision: 0.362233
+eval bathtub Average Precision: nan
+eval garbagebin Average Precision: 0.247684
+eval mAP: nan
+eval cabinet Recall: 0.727273
+eval bed Recall: 1.000000
+eval chair Recall: 0.941176
+eval sofa Recall: 0.333333
+eval table Recall: 0.800000
+eval door Recall: 0.812500
+eval window Recall: 0.285714
+eval bookshelf Recall: nan
+eval picture Recall: 0.500000
+eval counter Recall: 0.000000
+eval desk Recall: 1.000000
+eval curtain Recall: 0.250000
+eval refrigerator Recall: 0.750000
+eval showercurtrain Recall: nan
+eval toilet Recall: 1.000000
+eval sink Recall: 1.000000
+eval bathtub Recall: nan
+eval garbagebin Recall: 0.578947
+eval AR: nan
+**** EPOCH 130 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.007812
+2020-03-16 18:24:03.830698
+**** EPOCH 131 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.007812
+2020-03-16 18:24:05.168219
+**** EPOCH 132 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.007812
+2020-03-16 18:24:06.478860
+**** EPOCH 133 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.007812
+2020-03-16 18:24:07.792268
+**** EPOCH 134 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.007812
+2020-03-16 18:24:09.102079
+**** EPOCH 135 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.007812
+2020-03-16 18:24:10.413627
+**** EPOCH 136 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.007812
+2020-03-16 18:24:11.729598
+**** EPOCH 137 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.007812
+2020-03-16 18:24:13.051081
+**** EPOCH 138 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.007812
+2020-03-16 18:24:14.367726
+**** EPOCH 139 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.007812
+2020-03-16 18:24:15.683180
+eval mean box_loss: 0.249521
+eval mean center_loss: 0.080874
+eval mean heading_cls_loss: 0.000000
+eval mean heading_reg_loss: 0.000380
+eval mean loss: 11.727999
+eval mean neg_ratio: 0.578776
+eval mean obj_acc: 0.836431
+eval mean objectness_loss: 0.116583
+eval mean pos_ratio: 0.121745
+eval mean sem_cls_loss: 0.816421
+eval mean size_cls_loss: 0.816134
+eval mean size_reg_loss: 0.086653
+eval mean vote_loss: 0.783346
+eval cabinet Average Precision: 0.361527
+eval bed Average Precision: 0.450000
+eval chair Average Precision: 0.828670
+eval sofa Average Precision: 0.363292
+eval table Average Precision: 0.539589
+eval door Average Precision: 0.179483
+eval window Average Precision: 0.034174
+eval bookshelf Average Precision: nan
+eval picture Average Precision: 0.000000
+eval counter Average Precision: 0.000000
+eval desk Average Precision: 0.076923
+eval curtain Average Precision: 0.063756
+eval refrigerator Average Precision: 0.136986
+eval showercurtrain Average Precision: nan
+eval toilet Average Precision: 0.177419
+eval sink Average Precision: 0.045977
+eval bathtub Average Precision: nan
+eval garbagebin Average Precision: 0.221950
+eval mAP: nan
+eval cabinet Recall: 0.772727
+eval bed Recall: 1.000000
+eval chair Recall: 0.941176
+eval sofa Recall: 1.000000
+eval table Recall: 0.800000
+eval door Recall: 0.562500
+eval window Recall: 0.285714
+eval bookshelf Recall: nan
+eval picture Recall: 0.000000
+eval counter Recall: 0.000000
+eval desk Recall: 1.000000
+eval curtain Recall: 0.500000
+eval refrigerator Recall: 0.750000
+eval showercurtrain Recall: nan
+eval toilet Recall: 1.000000
+eval sink Recall: 0.666667
+eval bathtub Recall: nan
+eval garbagebin Recall: 0.684211
+eval AR: nan
+**** EPOCH 140 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.007812
+2020-03-16 18:24:18.397005
+**** EPOCH 141 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.003906
+2020-03-16 18:24:19.731629
+**** EPOCH 142 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.003906
+2020-03-16 18:24:21.044910
+**** EPOCH 143 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.003906
+2020-03-16 18:24:22.355284
+**** EPOCH 144 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.003906
+2020-03-16 18:24:23.661492
+**** EPOCH 145 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.003906
+2020-03-16 18:24:24.973108
+**** EPOCH 146 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.003906
+2020-03-16 18:24:26.290519
+**** EPOCH 147 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.003906
+2020-03-16 18:24:27.604803
+**** EPOCH 148 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.003906
+2020-03-16 18:24:28.913207
+**** EPOCH 149 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.003906
+2020-03-16 18:24:30.225156
+eval mean box_loss: 0.256404
+eval mean center_loss: 0.083748
+eval mean heading_cls_loss: 0.000000
+eval mean heading_reg_loss: 0.000267
+eval mean loss: 11.867207
+eval mean neg_ratio: 0.556641
+eval mean obj_acc: 0.833019
+eval mean objectness_loss: 0.121345
+eval mean pos_ratio: 0.133464
+eval mean sem_cls_loss: 0.848619
+eval mean size_cls_loss: 0.846486
+eval mean size_reg_loss: 0.087741
+eval mean vote_loss: 0.784782
+eval cabinet Average Precision: 0.229068
+eval bed Average Precision: 0.666667
+eval chair Average Precision: 0.705823
+eval sofa Average Precision: 0.358696
+eval table Average Precision: 0.553578
+eval door Average Precision: 0.291949
+eval window Average Precision: 0.095238
+eval bookshelf Average Precision: nan
+eval picture Average Precision: 0.000000
+eval counter Average Precision: 0.000000
+eval desk Average Precision: 0.026734
+eval curtain Average Precision: 0.041667
+eval refrigerator Average Precision: 0.043551
+eval showercurtrain Average Precision: nan
+eval toilet Average Precision: 0.020249
+eval sink Average Precision: 0.037037
+eval bathtub Average Precision: nan
+eval garbagebin Average Precision: 0.221946
+eval mAP: nan
+eval cabinet Recall: 0.636364
+eval bed Recall: 1.000000
+eval chair Recall: 0.882353
+eval sofa Recall: 1.000000
+eval table Recall: 0.800000
+eval door Recall: 0.562500
+eval window Recall: 0.285714
+eval bookshelf Recall: nan
+eval picture Recall: 0.000000
+eval counter Recall: 0.000000
+eval desk Recall: 1.000000
+eval curtain Recall: 0.250000
+eval refrigerator Recall: 0.750000
+eval showercurtrain Recall: nan
+eval toilet Recall: 1.000000
+eval sink Recall: 0.666667
+eval bathtub Recall: nan
+eval garbagebin Recall: 0.526316
+eval AR: nan
+**** EPOCH 150 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.003906
+2020-03-16 18:24:32.981977
+**** EPOCH 151 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.003906
+2020-03-16 18:24:34.318553
+**** EPOCH 152 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.003906
+2020-03-16 18:24:35.624404
+**** EPOCH 153 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.003906
+2020-03-16 18:24:36.937994
+**** EPOCH 154 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.003906
+2020-03-16 18:24:38.248651
+**** EPOCH 155 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.003906
+2020-03-16 18:24:39.553759
+**** EPOCH 156 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.003906
+2020-03-16 18:24:40.860695
+**** EPOCH 157 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.003906
+2020-03-16 18:24:42.174149
+**** EPOCH 158 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.003906
+2020-03-16 18:24:43.501203
+**** EPOCH 159 ****
+Current learning rate: 0.000010
+Current BN decay momentum: 0.003906
+2020-03-16 18:24:44.808042
+eval mean box_loss: 0.223651
+eval mean center_loss: 0.075628
+eval mean heading_cls_loss: 0.000000
+eval mean heading_reg_loss: 0.000274
+eval mean loss: 11.462460
+eval mean neg_ratio: 0.563802
+eval mean obj_acc: 0.836676
+eval mean objectness_loss: 0.120003
+eval mean pos_ratio: 0.117839
+eval mean sem_cls_loss: 0.765455
+eval mean size_cls_loss: 0.768474
+eval mean size_reg_loss: 0.070901
+eval mean vote_loss: 0.786048
+eval cabinet Average Precision: 0.345570
+eval bed Average Precision: 0.625000
+eval chair Average Precision: 0.822377
+eval sofa Average Precision: 0.340426
+eval table Average Precision: 0.524583
+eval door Average Precision: 0.192517
+eval window Average Precision: 0.146429
+eval bookshelf Average Precision: nan
+eval picture Average Precision: 0.000000
+eval counter Average Precision: 0.000000
+eval desk Average Precision: 0.021148
+eval curtain Average Precision: 0.050000
+eval refrigerator Average Precision: 0.278810
+eval showercurtrain Average Precision: nan
+eval toilet Average Precision: 0.015267
+eval sink Average Precision: 0.053333
+eval bathtub Average Precision: nan
+eval garbagebin Average Precision: 0.254858
+eval mAP: nan
+eval cabinet Recall: 0.727273
+eval bed Recall: 1.000000
+eval chair Recall: 0.941176
+eval sofa Recall: 0.666667
+eval table Recall: 0.800000
+eval door Recall: 0.562500
+eval window Recall: 0.285714
+eval bookshelf Recall: nan
+eval picture Recall: 0.000000
+eval counter Recall: 0.000000
+eval desk Recall: 1.000000
+eval curtain Recall: 0.250000
+eval refrigerator Recall: 1.000000
+eval showercurtrain Recall: nan
+eval toilet Recall: 1.000000
+eval sink Recall: 0.666667
+eval bathtub Recall: nan
+eval garbagebin Recall: 0.789474
+eval AR: nan
+**** EPOCH 160 ****
+Current learning rate: 0.000001
+Current BN decay momentum: 0.003906
+2020-03-16 18:24:47.565323
+**** EPOCH 161 ****
+Current learning rate: 0.000001
+Current BN decay momentum: 0.001953
+2020-03-16 18:24:48.916945
+**** EPOCH 162 ****
+Current learning rate: 0.000001
+Current BN decay momentum: 0.001953
+2020-03-16 18:24:50.225576
+**** EPOCH 163 ****
+Current learning rate: 0.000001
+Current BN decay momentum: 0.001953
+2020-03-16 18:24:51.530658
+**** EPOCH 164 ****
+Current learning rate: 0.000001
+Current BN decay momentum: 0.001953
+2020-03-16 18:24:52.841390
+**** EPOCH 165 ****
+Current learning rate: 0.000001
+Current BN decay momentum: 0.001953
+2020-03-16 18:24:54.177616
+**** EPOCH 166 ****
+Current learning rate: 0.000001
+Current BN decay momentum: 0.001953
+2020-03-16 18:24:55.479616
+**** EPOCH 167 ****
+Current learning rate: 0.000001
+Current BN decay momentum: 0.001953
+2020-03-16 18:24:56.786192
+**** EPOCH 168 ****
+Current learning rate: 0.000001
+Current BN decay momentum: 0.001953
+2020-03-16 18:24:58.099122
+**** EPOCH 169 ****
+Current learning rate: 0.000001
+Current BN decay momentum: 0.001953
+2020-03-16 18:24:59.412245
+eval mean box_loss: 0.248857
+eval mean center_loss: 0.078543
+eval mean heading_cls_loss: 0.000000
+eval mean heading_reg_loss: 0.000356
+eval mean loss: 11.737348
+eval mean neg_ratio: 0.574870
+eval mean obj_acc: 0.838590
+eval mean objectness_loss: 0.118696
+eval mean pos_ratio: 0.126953
+eval mean sem_cls_loss: 0.827082
+eval mean size_cls_loss: 0.829612
+eval mean size_reg_loss: 0.086997
+eval mean vote_loss: 0.782821
+eval cabinet Average Precision: 0.256858
+eval bed Average Precision: 0.833333
+eval chair Average Precision: 0.834712
+eval sofa Average Precision: 0.399198
+eval table Average Precision: 0.473727
+eval door Average Precision: 0.215911
+eval window Average Precision: 0.019048
+eval bookshelf Average Precision: nan
+eval picture Average Precision: 0.010870
+eval counter Average Precision: 0.000000
+eval desk Average Precision: 0.100000
+eval curtain Average Precision: 0.083333
+eval refrigerator Average Precision: 0.138891
+eval showercurtrain Average Precision: nan
+eval toilet Average Precision: 0.109434
+eval sink Average Precision: 0.047619
+eval bathtub Average Precision: nan
+eval garbagebin Average Precision: 0.244858
+eval mAP: nan
+eval cabinet Recall: 0.681818
+eval bed Recall: 1.000000
+eval chair Recall: 0.941176
+eval sofa Recall: 1.000000
+eval table Recall: 0.800000
+eval door Recall: 0.625000
+eval window Recall: 0.285714
+eval bookshelf Recall: nan
+eval picture Recall: 0.500000
+eval counter Recall: 0.000000
+eval desk Recall: 1.000000
+eval curtain Recall: 0.250000
+eval refrigerator Recall: 1.000000
+eval showercurtrain Recall: nan
+eval toilet Recall: 1.000000
+eval sink Recall: 0.666667
+eval bathtub Recall: nan
+eval garbagebin Recall: 0.684211
+eval AR: nan
+**** EPOCH 170 ****
+Current learning rate: 0.000001
+Current BN decay momentum: 0.001953
+2020-03-16 18:25:02.144774
+**** EPOCH 171 ****
+Current learning rate: 0.000001
+Current BN decay momentum: 0.001953
+2020-03-16 18:25:03.514451
+**** EPOCH 172 ****
+Current learning rate: 0.000001
+Current BN decay momentum: 0.001953
+2020-03-16 18:25:04.852932
+**** EPOCH 173 ****
+Current learning rate: 0.000001
+Current BN decay momentum: 0.001953
+2020-03-16 18:25:06.191594
+**** EPOCH 174 ****
+Current learning rate: 0.000001
+Current BN decay momentum: 0.001953
+2020-03-16 18:25:07.514974
+**** EPOCH 175 ****
+Current learning rate: 0.000001
+Current BN decay momentum: 0.001953
+2020-03-16 18:25:08.829258
+**** EPOCH 176 ****
+Current learning rate: 0.000001
+Current BN decay momentum: 0.001953
+2020-03-16 18:25:10.170142
+**** EPOCH 177 ****
+Current learning rate: 0.000001
+Current BN decay momentum: 0.001953
+2020-03-16 18:25:11.477268
+**** EPOCH 178 ****
+Current learning rate: 0.000001
+Current BN decay momentum: 0.001953
+2020-03-16 18:25:12.790424
+**** EPOCH 179 ****
+Current learning rate: 0.000001
+Current BN decay momentum: 0.001953
+2020-03-16 18:25:14.107533
+eval mean box_loss: 0.219106
+eval mean center_loss: 0.080765
+eval mean heading_cls_loss: 0.000000
+eval mean heading_reg_loss: 0.000384
+eval mean loss: 11.425324
+eval mean neg_ratio: 0.572266
+eval mean obj_acc: 0.826168
+eval mean objectness_loss: 0.117235
+eval mean pos_ratio: 0.124349
+eval mean sem_cls_loss: 0.798820
+eval mean size_cls_loss: 0.814290
+eval mean size_reg_loss: 0.056528
+eval mean vote_loss: 0.784927
+eval cabinet Average Precision: 0.410987
+eval bed Average Precision: 0.666667
+eval chair Average Precision: 0.626921
+eval sofa Average Precision: 0.333333
+eval table Average Precision: 0.402450
+eval door Average Precision: 0.232623
+eval window Average Precision: 0.014043
+eval bookshelf Average Precision: nan
+eval picture Average Precision: 0.010000
+eval counter Average Precision: 0.000000
+eval desk Average Precision: 0.111111
+eval curtain Average Precision: 0.083333
+eval refrigerator Average Precision: 0.010804
+eval showercurtrain Average Precision: nan
+eval toilet Average Precision: 0.008475
+eval sink Average Precision: 0.277778
+eval bathtub Average Precision: nan
+eval garbagebin Average Precision: 0.215751
+eval mAP: nan
+eval cabinet Recall: 0.818182
+eval bed Recall: 1.000000
+eval chair Recall: 0.764706
+eval sofa Recall: 0.333333
+eval table Recall: 0.800000
+eval door Recall: 0.750000
+eval window Recall: 0.428571
+eval bookshelf Recall: nan
+eval picture Recall: 0.500000
+eval counter Recall: 0.000000
+eval desk Recall: 1.000000
+eval curtain Recall: 0.250000
+eval refrigerator Recall: 0.750000
+eval showercurtrain Recall: nan
+eval toilet Recall: 0.500000
+eval sink Recall: 0.666667
+eval bathtub Recall: nan
+eval garbagebin Recall: 0.684211
+eval AR: nan
+Namespace(DUMP_DIR='/home/wenjing/votenet/log_scannet', ap_iou_thresh=0.25, batch_size=8, bn_decay_rate=0.5, bn_decay_step=20, checkpoint_path=None, cluster_sampling='vote_fps', dataset='scannet', dump_dir=None, dump_results=False, learning_rate=0.001, log_dir='log_scannet', lr_decay_rates='0.1,0.1,0.1', lr_decay_steps='80,120,160', max_epoch=180, model='votenet', no_height=False, num_point=40000, num_target=256, overwrite=False, use_color=False, use_sunrgbd_v2=False, vote_factor=1, weight_decay=0)
+-> loaded checkpoint log_scannet/checkpoint.tar (epoch: 180)

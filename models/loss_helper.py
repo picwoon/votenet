@@ -158,6 +158,7 @@ def compute_box_and_sem_cls_loss(end_points, config):
     heading_residual_normalized_loss = torch.sum(heading_residual_normalized_loss*objectness_label)/(torch.sum(objectness_label)+1e-6)
 
     # Compute size loss
+    # DEBUG
     size_class_label = torch.gather(end_points['size_class_label'], 1, object_assignment) # select (B,K) from (B,K2)
     criterion_size_class = nn.CrossEntropyLoss(reduction='none')
     size_class_loss = criterion_size_class(end_points['size_scores'].transpose(2,1), size_class_label) # (B,K)
@@ -172,7 +173,16 @@ def compute_box_and_sem_cls_loss(end_points, config):
     mean_size_arr_expanded = torch.from_numpy(mean_size_arr.astype(np.float32)).cuda().unsqueeze(0).unsqueeze(0) # (1,1,num_size_cluster,3) 
     mean_size_label = torch.sum(size_label_one_hot_tiled * mean_size_arr_expanded, 2) # (B,K,3)
     size_residual_label_normalized = size_residual_label / mean_size_label # (B,K,3)
-    size_residual_normalized_loss = torch.mean(huber_loss(predicted_size_residual_normalized - size_residual_label_normalized, delta=1.0), -1) # (B,K,3) -> (B,K)
+
+    # DEBUG: adding weights
+    size_weight = 1 / (torch.mean(size_residual_label_normalized, dim=(0,1)) + 0.01)
+    import pdb
+    #pdb.set_trace()
+    #print(size_weight)
+    #pdb.set_trace()
+
+    # size_residual_normalized_loss = torch.mean(huber_loss(predicted_size_residual_normalized - size_residual_label_normalized, delta=1.0), -1) # (B,K,3) -> (B,K)
+    size_residual_normalized_loss = torch.mean(huber_loss(predicted_size_residual_normalized * size_weight - size_residual_label_normalized * size_weight, delta=1.0), -1) # (B,K,3) -> (B,K)
     size_residual_normalized_loss = torch.sum(size_residual_normalized_loss*objectness_label)/(torch.sum(objectness_label)+1e-6)
 
     # 3.4 Semantic cls loss

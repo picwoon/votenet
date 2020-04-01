@@ -176,7 +176,9 @@ optimizer = optim.Adam(net.parameters(), lr=BASE_LEARNING_RATE, weight_decay=FLA
 # Load checkpoint if there is any
 it = -1 # for the initialize value of `LambdaLR` and `BNMomentumScheduler`
 start_epoch = 0
-if CHECKPOINT_PATH is not None and os.path.isfile(CHECKPOINT_PATH):
+# if CHECKPOINT_PATH is not None and os.path.isfile(CHECKPOINT_PATH):
+if 0:
+    # DEBUG
     checkpoint = torch.load(CHECKPOINT_PATH)
     net.load_state_dict(checkpoint['model_state_dict'])
     optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
@@ -234,6 +236,7 @@ def train_one_epoch():
             assert(key not in end_points)
             end_points[key] = batch_data_label[key]
         loss, end_points = criterion(end_points, DATASET_CONFIG)
+        # print(loss.data)
         loss.backward()
         optimizer.step()
 

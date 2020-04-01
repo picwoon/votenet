@@ -34,7 +34,9 @@ import sunrgbd_utils
 from model_util_sunrgbd import SunrgbdDatasetConfig
 
 DC = SunrgbdDatasetConfig() # dataset specific config
-MAX_NUM_OBJ = 64 # maximum number of objects allowed per scene
+# DEBUG
+# MAX_NUM_OBJ = 64 # maximum number of objects allowed per scene
+MAX_NUM_OBJ = 400
 MEAN_COLOR_RGB = np.array([0.5,0.5,0.5]) # sunrgbd color is in 0~1
 
 class SunrgbdDetectionVotesDataset(Dataset):
@@ -52,7 +54,10 @@ class SunrgbdDetectionVotesDataset(Dataset):
                 'sunrgbd/sunrgbd_pc_bbox_votes_50k_v2_%s'%(split_set))
 
         self.raw_data_path = os.path.join(ROOT_DIR, 'sunrgbd/sunrgbd_trainval')
-        self.scan_names = sorted(list(set([os.path.basename(x)[0:6] \
+        # DEBUG
+        # self.scan_names = sorted(list(set([os.path.basename(x)[0:6] \
+        #    for x in os.listdir(self.data_path)])))
+        self.scan_names = sorted(list(set([os.path.basename(x)[0:32] \
             for x in os.listdir(self.data_path)])))
         if scan_idx_list is not None:
             self.scan_names = [self.scan_names[i] for i in scan_idx_list]

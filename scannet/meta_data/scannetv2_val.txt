@@ -310,3 +310,9 @@ scene0558_02
 scene0685_00
 scene0685_01
 scene0685_02
+scene0000_00
+scene0000_02
+scene0002_00
+scene0003_00
+scene0004_00
+scene0005_00

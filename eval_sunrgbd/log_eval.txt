@@ -1,0 +1,40 @@
+Namespace(DUMP_DIR='eval_sunrgbd', ap_iou_thresholds='0.25,0.5', batch_size=8, checkpoint_path='log_sunrgbd/checkpoint.tar', cluster_sampling='seed_fps', conf_thresh=0.05, dataset='sunrgbd', dump_dir='eval_sunrgbd', faster_eval=False, model='votenet', nms_iou=0.25, no_height=False, num_point=20000, num_target=256, per_class_proposal=True, shuffle_dataset=False, use_3d_nms=True, use_cls_nms=True, use_color=False, use_old_type_nms=False, use_sunrgbd_v2=False, vote_factor=1)
+Loaded checkpoint log_sunrgbd/checkpoint.tar (epoch: 180)
+2020-03-29 18:35:05.670345
+eval mean box_loss: 1.591333
+eval mean center_loss: 1.261253
+eval mean heading_cls_loss: 1.413954
+eval mean heading_reg_loss: 0.023473
+eval mean loss: 16.644633
+eval mean neg_ratio: 0.910384
+eval mean obj_acc: 0.965657
+eval mean objectness_loss: 0.049128
+eval mean pos_ratio: 0.022678
+eval mean sem_cls_loss: 0.454408
+eval mean size_cls_loss: 0.453260
+eval mean size_reg_loss: 0.119885
+eval mean vote_loss: 0.003126
+eval ceiling Average Precision: 0.226071
+eval door Average Precision: 0.004914
+eval floor Average Precision: 0.132421
+eval wall Average Precision: 0.135139
+eval window Average Precision: 0.036691
+eval mAP: 0.107047
+eval ceiling Recall: 0.412698
+eval door Recall: 0.123128
+eval floor Recall: 0.340974
+eval wall Recall: 0.324704
+eval window Recall: 0.232727
+eval AR: 0.286846
+eval ceiling Average Precision: 0.020655
+eval door Average Precision: 0.000238
+eval floor Average Precision: 0.020682
+eval wall Average Precision: 0.003086
+eval window Average Precision: 0.006164
+eval mAP: 0.010165
+eval ceiling Recall: 0.102453
+eval door Recall: 0.001664
+eval floor Recall: 0.123209
+eval wall Recall: 0.040680
+eval window Recall: 0.060000
+eval AR: 0.065601
